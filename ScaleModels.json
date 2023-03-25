@@ -59,7 +59,7 @@
       },
       {
         "effect": "FSR_RCAS",
-        "sharpness": 0.9
+        "sharpness": 0.96
       },
       {
         "effect": "Lanczos",
