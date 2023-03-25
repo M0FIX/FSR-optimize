@@ -1,0 +1,53 @@
+[
+  {
+    "name": "FSR-Quality",
+    "effects": [
+      {
+        "effect": "FSR_EASU",
+        "scale": [ -1, -1 ]
+      },
+      {
+        "effect": "FSR_RCAS",
+        "sharpness": 1.1
+      },
+      {
+        "effect": "Lanczos",
+        "scale": [ -1, -1 ]
+      }
+    ]
+  },
+  {
+    "name": "FSR-Balance",
+    "effects": [
+      {
+        "effect": "FSR_EASU",
+        "scale": [ -1, -1 ]
+      },
+      {
+        "effect": "FSR_RCAS",
+        "sharpness": 1.1
+      },
+      {
+        "effect": "Bicubic",
+        "scale": [ -1, -1 ]
+      }
+    ]
+  },
+  {
+    "name": "FSR-Performance",
+    "effects": [
+      {
+        "effect": "FSR_EASU",
+        "scale": [ -1, -1 ]
+      },
+      {
+        "effect": "FSR_RCAS",
+        "sharpness": 1
+      },
+      {
+        "effect": "Bilinear",
+        "scale": [ -1, -1 ]
+      }
+    ]
+  }
+]
